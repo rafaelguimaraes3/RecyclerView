@@ -1,7 +1,5 @@
 package rafael.guimaraes.recyclerview.activity.activity.adapter;
 
-import android.graphics.Bitmap;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -39,7 +37,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         holder.valor.setText(cursos.getValorCursos());
         holder.tempo.setText(cursos.getTempoCursos());
         holder.professor.setText(cursos.getProfessorCursos());
-        //holder.imagem.setImageResource('res/drawable/_03_java.xml');
+        holder.imagem.setImageDrawable(holder.itemView.getContext().getDrawable(cursos.getImageCurso()));
     }
 
     @Override

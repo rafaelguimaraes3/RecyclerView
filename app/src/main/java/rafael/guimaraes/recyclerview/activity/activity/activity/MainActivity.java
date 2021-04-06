@@ -71,31 +71,31 @@ public class MainActivity extends AppCompatActivity {
     }
     public void criarCursos(){
 
-        Cursos cursos = new Cursos("Curso: Java", "Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima");
+        Cursos cursos = new Cursos("Curso: Java", "Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima", R.drawable.java);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: PHP", "Valor: R$ 59,90", "Tempo de curso: 22 Horas", "Professor: Pedro Amaro");
+        cursos = new Cursos("Curso: PHP", "Valor: R$ 59,90", "Tempo de curso: 22 Horas", "Professor: Pedro Amaro", R.drawable.php);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: CSS", "Valor: R$ 29,90", "Tempo de curso: 5 Horas", "Professor: Carlos Magno");
+        cursos = new Cursos("Curso: CSS", "Valor: R$ 29,90", "Tempo de curso: 5 Horas", "Professor: Carlos Magno", R.drawable.css);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: Javascript", "Valor: R$ 69,90", "Tempo de curso: 24 Horas", "Professor: Pedro Amaro");
+        cursos = new Cursos("Curso: Javascript", "Valor: R$ 69,90", "Tempo de curso: 24 Horas", "Professor: Pedro Amaro", R.drawable.javascript);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: Python", "Valor: R$ 39,90", "Tempo de curso: 9 Horas", "Professor: Renata Lyra");
+        cursos = new Cursos("Curso: Python", "Valor: R$ 39,90", "Tempo de curso: 9 Horas", "Professor: Renata Lyra", R.drawable.python);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: Ruby", "Valor: R$ 69,90", "Tempo de curso: 24 Horas", "Professor: Pedro Amaro");
+        cursos = new Cursos("Curso: Ruby", "Valor: R$ 69,90", "Tempo de curso: 24 Horas", "Professor: Pedro Amaro", R.drawable.ruby);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: C","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima");
+        cursos = new Cursos("Curso: C","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima", R.drawable.c);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: C++","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima");
+        cursos = new Cursos("Curso: C++","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "Professor: João Lima", R.drawable.cplusplus);
         this.listaCursos.add(cursos);
 
-        cursos = new Cursos("Curso: C#","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "João Lima");
+        cursos = new Cursos("Curso: C#","Valor: R$ 39,90", "Tempo de curso: 12 Horas", "João Lima", R.drawable.csharp);
         this.listaCursos.add(cursos);
 
     }
